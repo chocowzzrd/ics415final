@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Login Screen </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
+  <![endif]-->
+
+  <!-- Load Bootstrap JavaScript components -->
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="verify.js"></script>
+  <script src="loginVerify.js"></script>
+  <link rel="stylesheet" type="text/css" href="loginStyle.css">
+
+  <style>
+    .blue {
+      border-style: solid;
+      border-color: blue;
+    }
+    .red {
+      border-style: solid;
+      border-color: red;
+    }
+    .yellow {
+      border-style: solid;
+      border-color: #ffff00;
+    }
+    .none {
+    }
+  </style>
+
+</head>
+<body>
+<div class="container">
+  <div class="well">
+    <p style="font-size: 250%;text-align: center;">Generic Park</p>
+  </div>
+  <p></p>
+  <hr/>
+  <div class="row">
+    <form>
+      <label>User Name: <input type="text" name="name"/></label>
+      <label>Password: <input type="text" name="passwd"/></label>
+    </form>
+    <p id="invalid"></p>
+    <button id="login">Login</button>
+  </div>
+  <a href="signUp.html">Need an account?</a>
+</div>
+
+</body>
+</html>
