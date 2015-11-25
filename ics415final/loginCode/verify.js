@@ -24,6 +24,7 @@ $(document).ready(function(){
             $("input[name='passwd']").removeClass("red");
             if(match != null) {
                 //$("#errors").append("Username:" + nameValue + " Password: " + passwordValue);
+                //Add data to json file here
                 window.location.assign("confirmPage.html")
             }
             else {
